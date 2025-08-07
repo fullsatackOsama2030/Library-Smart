@@ -1,0 +1,6 @@
+Create table Login(
+id int not null IDENTITY(1,1) primary key,
+username varchar(150) not null,
+pass varchar(150) not null);
+
+insert into Login (username,pass) values('Admin','AdminOsama');
